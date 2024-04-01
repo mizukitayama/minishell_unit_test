@@ -1,0 +1,15 @@
+pwd useless argument
+echo | cat -e
+echo hola buenos dias | cat -e
+echo -n hola que tal bocadillo digital | cat -e
+cd ; pwd
+cd qwerty ; pwd
+/bin/ls
+ls
+env | grep USER
+export Z=z ; echo $Z
+export A=a B=b C=c; echo $A$B$C
+export zz zzz= zzzz=asd ; echo $zz$zzz$zzzz; export | grep zz
+export A=a ; echo $A
+exit
+exit 42 ; echo hi
